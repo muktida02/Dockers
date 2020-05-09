@@ -1,7 +1,7 @@
-version: '3'
+       version: '3'
 
-services:
-  dbos:
+      services:
+        dbos:
     image: mysql:5.7
     volumes: 
       - mysql_vol_new:/var/lib/mysql
